@@ -1,0 +1,94 @@
+body{
+    margin:0 auto;
+    padding:0;
+    background-image: url("../images/garden2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+}
+
+.container{
+    margin:10px auto;
+    padding: 5px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    height: 700px;
+    width: 500px;
+}
+
+.formDiv,.gameInfo{
+    margin: 20px auto;
+    padding: 10px;
+    border: 3px solid yellow;
+    border-radius: 20px;
+    height: 42%;
+    background-color: rgba(130, 128, 128,.4);
+    text-align: center;
+}
+
+.formDiv form label{
+    display: block;
+    margin: 10px auto;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.formDiv form input[type='text'],select{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgba(204, 204, 204 , .4);
+    border-style: none;
+}
+
+.formDiv form input[type='submit']{
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+    border-color: rgba(110, 139, 38, 0.7);
+    background-color: rgba(105, 226, 41, 0.7);
+    font: normal 500 25px monospace;
+}
+
+.formDiv form input[type='submit']:hover{
+    cursor: pointer;
+    background-color: rgba(105, 226, 41, 0.4);
+    color: #fff;
+}
+
+.gameInfo h1{
+    margin: 10px auto;
+}
+
+.birdInfo{
+    /* border: 1px solid pink; */
+    display: flex;
+    align-items: center;
+}
+
+.birdInfo img{
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+    margin-left: 90px;
+}
+
+.birdInfo span{
+    font-size: 40px;
+}
+
+
+.error{
+    color: red;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+
+.textboxBorderError{
+    border:1px solid red;
+}

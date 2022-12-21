@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="formDiv">
+            <form action="index.html" method="get" id="entryForm">
+                <label for="">Select Game Level</label>
+                <select name="level" id="level">
+                    <option value="level1">Level 1</option>
+                </select>
+                <label for="">Enter Your Name</label>
+                <span class="nameError" style="visibility: hidden;">Name Required...!</span>
+                <input type="text" name="name" id="name"><br>
+                <input type="submit" name="gobtn" id="gobtn" value="Go">
+            </form>
+        </div>
+        <div class="gameInfo">
+            <h1>Game Bird Shooting Info</h1>
+            <div class="birdInfo">
+                <img src="./images/white.gif" alt="">
+                <span style="color: blue;">+5 Points</span>
+            </div>
+            <div class="birdInfo">
+                <img src="./images/black.gif" alt="">
+                <span style="color: orange;">+10 Points</span>
+            </div>
+            <div class="birdInfo">
+                <img src="./images/cyan.gif" alt="">
+                <span style="color: red;">-10 Points</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/functions.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
