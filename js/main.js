@@ -80,35 +80,3 @@ function endObject(){
         endMessage.querySelector('img').src='../images/surprise.png';
     }
 }
-
-
-
-// function fly(){   
-//     let left=0;
-//     let birdObject=document.createElement('img');
-//     birdObject.src='images/black.gif';
-//     birdObject.style.width='100px';
-//     birdObject.style.position='absolute';
-
-//     let id=setInterval(()=>{
-//         console.log('i am fncion'); 
-//         left+=10;
-//         document.querySelector('.content').appendChild(birdObject);
-//         if(left<=(window.innerWidth)){
-//             birdObject.style.left=left+'px';
-//         }else{
-//             clearInterval(id);
-//             birdObject.remove();
-//         }
-        
-//     },100);
-// }
-
-
-
-
-
-
-
-
-
