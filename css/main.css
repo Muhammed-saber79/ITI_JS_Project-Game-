@@ -2,11 +2,11 @@ body{
     background: url('../images/garden.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 900px;
     /* overflow: hidden; */
 }
 
-.container{
+.container,.endContainer{
     background-color: rgba(230, 224, 224, 0.4);
     position:fixed;
     top: 0;
@@ -16,7 +16,7 @@ body{
     display: none;
 }
 
-.startMessage{
+.startMessage , .endMessage{
     width: 500px;
     /* height: 300px; */
     margin: 20px auto;
@@ -30,17 +30,17 @@ body{
     padding: 10px;
 }
 
-.startMessage button{
+
+button{
     margin-top: 30px;
-    width: 120px;
-    height: 35px;
+    padding: 3px 15px;
     border-radius: 15px;
     border-color: rgba(37, 84, 11, 0.7);
     background-color: rgba(105, 226, 41, 0.7);
     font: normal 500 25px monospace;
 }
 
-.startMessage button:hover{
+button:hover{
     cursor: pointer;
     background-color: rgba(105, 226, 41, 0.4);
     color: #fff;
